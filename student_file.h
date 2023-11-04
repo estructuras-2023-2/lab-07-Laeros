@@ -29,7 +29,7 @@ vector<int> Torneo(vector<int> playerSkills, int numPlayers, int numRounds) {
         if (wins == numPlayers) {
             playerQueue.push(currentPlayer);
             currentPlayer = playerQueue.front();
-            playerQueue pop();
+            playerQueue.pop();
             wins = 0;
         }
 
