@@ -39,4 +39,3 @@ vector<int> Torneo(vector<int> playerSkills, int numPlayers, int numRounds) {
 
     return result;
 }
-z
